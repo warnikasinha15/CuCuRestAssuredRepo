@@ -13,16 +13,14 @@ import org.junit.Assert;
 
 public class MyGetWithTagsSD {
 
-	Response resp;
-	
-	
-	
+	Response resp;	
 	
 	@Given("^user start the rest asured test$")
 	public void user_start_the_rest_asured_test(){
 		
 		System.out.println("Starting of the GET request");
 		System.out.println("checking");
+		System.out.println("2nd check");
 		
 //		given().
 //		when().
