@@ -15,10 +15,14 @@ public class MyGetWithTagsSD {
 
 	Response resp;
 	
+	
+	
+	
 	@Given("^user start the rest asured test$")
 	public void user_start_the_rest_asured_test(){
 		
 		System.out.println("Starting of the GET request");
+		System.out.println("checking");
 		
 //		given().
 //		when().
